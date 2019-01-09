@@ -1,7 +1,6 @@
 package org.abcl.trainig.testng;
 
 import org.apache.log4j.Logger;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
@@ -16,8 +15,4 @@ public class AppTest {
         logger.info("Hello World !");
     }
 
-    @Test
-    public void test2() {
-        Assert.fail();
-    }
 }
